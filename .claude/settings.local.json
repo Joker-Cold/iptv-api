@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh pr:*)",
+      "Read(//f/iptv_git/**)",
+      "Bash(pipenv run:*)",
+      "Bash(docker --version)",
+      "Bash(\"/c/Program Files/Docker/Docker/resources/bin/docker.exe\" --version)",
+      "Bash(cmd.exe //c \"docker --version\")",
+      "Read(//e/Python//**)",
+      "Bash(ls /c/Python*)",
+      "Bash(cmd.exe //c \"where python\")",
+      "Bash(py -0p)",
+      "Bash(py --list-paths)",
+      "Bash(cmd.exe //c \"where conda\")",
+      "Read(//c/Users/Lenovo/anaconda3/**)",
+      "Read(//c/Users/Lenovo/miniconda3/**)",
+      "Read(//c/ProgramData/anaconda3/**)",
+      "Read(//e/anaconda3/**)",
+      "Read(//c/Users/Lenovo/**)",
+      "Bash(docker info:*)",
+      "Bash(docker run:*)",
+      "Bash(docker pull:*)",
+      "Bash(powershell -Command \"Restart-Service docker -ErrorAction SilentlyContinue; if \\($?\\) { ''restarted'' } else { ''need manual restart'' }\")",
+      "Bash(powershell -Command \"Restart-Service com.docker.service -Force\")",
+      "Bash(docker restart:*)"
+    ],
+    "additionalDirectories": [
+      "F:\\iptv_git",
+      "C:\\Users\\Lenovo\\.docker"
+    ]
+  }
+}
