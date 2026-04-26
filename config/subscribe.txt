@@ -2,10 +2,32 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
+# === m3u.ibert.me 聚合源 ===
+# 综合聚合
+# fanmingming/live
+# YueChan/Live (经站点)
+# YanG-1989/m3u
+# joevess/IPTV
+# iptv-org
+# cymz6/AutoIPTV-Hotel (酒店源)
+https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+https://m3u.ibert.me/all.m3u
+https://m3u.ibert.me/cn.m3u
+https://m3u.ibert.me/fmml_ipv6.m3u
+https://m3u.ibert.me/fmml_itv.m3u
+https://m3u.ibert.me/fmml_index.m3u
+https://m3u.ibert.me/ycl_iptv.m3u
+https://m3u.ibert.me/y_g.m3u
+https://m3u.ibert.me/o_all.m3u
+https://m3u.ibert.me/o_cn.m3u
+https://m3u.ibert.me/o_s_cn.m3u
+https://m3u.ibert.me/o_s_cn_112114.m3u
+https://m3u.ibert.me/o_s_cn_cctv.m3u
+https://m3u.ibert.me/o_s_cn_cgtn.m3u
 
-
-
-
+# https://m3u.ibert.me/j_home.m3u
+# https://m3u.ibert.me/j_iptv.m3u
+# https://m3u.ibert.me/cymz6_lives.m3u
 
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
